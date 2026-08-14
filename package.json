@@ -1,6 +1,6 @@
 {
   "name": "kimi-proxy",
-  "version": "0.2.0",
+  "version": "2.0.0",
   "description": "Secure Kimi API Proxy with Token Refresh & Rate Limiting",
   "main": "src/server.js",
   "type": "module",

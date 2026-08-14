@@ -1,13 +1,24 @@
 {
   "name": "kimi-proxy",
-  "version": "1.0.0",
+  "version": "0.2.0",
+  "description": "Secure Kimi API Proxy with Token Refresh & Rate Limiting",
   "main": "src/server.js",
+  "type": "module",
   "scripts": {
     "start": "node src/server.js",
     "dev": "node --watch src/server.js"
   },
   "dependencies": {
+    "express": "^5.1.0",
     "dotenv": "^16.4.7",
-    "express": "^5.1.0"
+    "jsonwebtoken": "^9.1.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.1.5",
+    "cookie-parser": "^1.4.6",
+    "uuid": "^9.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
